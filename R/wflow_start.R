@@ -337,8 +337,8 @@ body(wflow_start_) <- quote({
   project_files <- names(templates)
 
   # Create subdirectories
-  subdirs <- file.path(directory, c("analysis", "code", "data", "docs",
-                                    "output"))
+  subdirs <- file.path(directory, c("Analysis", "Code", "Data", "Docs",
+                                    "Output"))
   if (!dry_run) {
     fs::dir_create(subdirs)
   }
